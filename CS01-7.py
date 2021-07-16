@@ -1,8 +1,10 @@
-A = int(input('A = '))
+A = int(input('คะแนน = '))
 
 if (A <= 10):
     print('ไม่ผ่าน')
-if (A <= 20):
+elif (A <= 20):
     print('ปรับปรุง')
-if (A <= 30):
+elif (A <= 30):
     print('ดีมาก')
+    
+    
